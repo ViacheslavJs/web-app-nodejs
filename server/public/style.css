@@ -1,0 +1,93 @@
+.cards-box {
+  display: flex;
+  flex-direction: row;		 
+  justify-content: center; 
+  align-items: flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 15px; /* пространство между элементами по горизонтали */
+  
+}
+
+.title {
+  text-align: center;
+  color: #a9a9ac;
+}
+
+.card {
+  display: none;
+}
+
+.card__span-name,
+.card__span-price {
+  color: #444445;
+}
+
+.card__name,
+.card__price {
+  color: #88888a;
+}
+
+
+.card__image-box {
+  position: relative;
+  display: block;  
+  width: 200px; 
+  height: 200px; 
+  margin: 20px 0;
+  object-fit: cover;                
+    
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.card__image {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+}
+
+.cardPreviewBox {
+  position: relative;   
+}
+
+.cardPreviewSpan {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 8px;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.cardPreview:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.addCart {
+  font-size: 18px;
+  outline: none;
+  border: 1px solid #ffb328; /* none */
+  border-radius: 5px;
+  background: transparent;
+  padding: 3px 5px; /* 0 */
+  cursor: pointer;
+  color: #ffb328;
+}
+
+.viewed {
+  margin: 20px;
+}
+
+.scroll {
+  overflow-y: hidden;
+}
+
+.messages {
+  margin: 25px auto;
+}
+
