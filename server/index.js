@@ -32,6 +32,7 @@ app.listen(PORT, () => {
 import express from 'express';
 import { readFile } from 'fs/promises';
 import path from 'path';
+//import cors from 'cors';
 import { fileURLToPath } from 'url';
 
 const app = express();
@@ -43,6 +44,8 @@ const __dirname = path.dirname(__filename);
 
 // Middleware для разбора JSON-запросов
 app.use(express.json());
+
+//app.use(cors());
 
 // Маршрут для отдачи статических файлов из каталога '../client'
 //app.use(express.static(path.join(__dirname, '../client')));

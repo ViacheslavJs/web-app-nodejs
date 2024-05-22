@@ -89,5 +89,13 @@
 
 .messages {
   margin: 25px auto;
+  text-align: center;
+  color: #a9a9ac;
+}
+
+.messages--error,
+.messages--load,
+.messages--empty {
+  
 }
 
