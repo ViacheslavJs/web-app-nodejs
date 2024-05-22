@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 productName.textContent = product.name;
                 productPrice.textContent = product.price;                
                 productImage.src = product.image;
+                productImage.alt = product.alt;
                 // Показать контейнеры с продуктами после успешной загрузки данных
                 elementsContainers[index].style.display = 'block';
             });

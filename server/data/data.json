@@ -3,17 +3,20 @@
     {
       "name": "Greek Salad",
       "price": "$2",
-      "image": "images/greek-salad.webp"
+      "image": "images/greek-salad.webp",
+      "alt": "greek-salad"
     },
     {
       "name": "Stew",
       "price": "$1",
-      "image": "images/stew.webp"
+      "image": "images/stew.webp",
+      "alt": "stew"
     },
     {
       "name": "Steak",
       "price": "$3",
-      "image": "images/steak.webp"
+      "image": "images/steak.webp",
+      "alt": "steak"
     }
   ]
 }

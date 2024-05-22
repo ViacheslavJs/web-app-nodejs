@@ -14,10 +14,6 @@
   color: #a9a9ac;
 }
 
-.card {
-  display: none;
-}
-
 .card__span-name,
 .card__span-price {
   color: #444445;
@@ -25,6 +21,10 @@
 
 .card__name,
 .card__price {
+  /*display: flex;*/
+  flex-direction: row;		 
+  justify-content: space-between; 
+  align-items: flex-start;
   color: #88888a;
 }
 
@@ -47,6 +47,17 @@
   height: 100%;
   margin: auto;
   object-fit: cover;
+}
+
+.card__button {
+  font-size: 18px;
+  outline: none;
+  border: 1px solid #ffb328; /* none */
+  border-radius: 5px;
+  background: transparent;
+  padding: 3px 5px; /* 0 */
+  cursor: pointer;
+  color: #ffb328;
 }
 
 .cardPreviewBox {
