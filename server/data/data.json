@@ -2,17 +2,17 @@
   "myProducts": [
     {
       "name": "Product 1",
-      "price": "$300",
+      "price": "$2",
       "image": "images/greek-salad.webp"
     },
     {
       "name": "Product 2",
-      "price": "$1000",
+      "price": "$1",
       "image": "images/stew.webp"
     },
     {
       "name": "Product 3",
-      "price": "$10",
+      "price": "$3",
       "image": "images/steak.webp"
     }
   ]
